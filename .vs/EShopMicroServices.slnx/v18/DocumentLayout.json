@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|c:\\users\\haribabu.arigela\\source\\repos\\eshopmicroservices\\src\\services\\catelog\\catelog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|solutionrelative:src\\services\\catelog\\catelog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|c:\\users\\haribabu.arigela\\source\\repos\\eshopmicroservices\\src\\services\\catelog\\catelog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|solutionrelative:src\\services\\catelog\\catelog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 241,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T04:33:45.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catelog\\Catelog.API\\Program.cs",
+              "ToolTip": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Catelog\\Catelog.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T04:26:15.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
