@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  catelog.api:
+    image: ${DOCKER_REGISTRY-}catelogapi
+    build:
+      context: .
+      dockerfile: src/Services/Catelog/Catelog.API/Dockerfile
+    container_name: catalogapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      catelogdb:
+        condition: service_started
+    networks:
+      - catalog-network
+
+  catelogdb:
+    image: postgres:16-alpine
+    container_name: catalogdb
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=CatalogDb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_catalog:/var/lib/postgresql/data/
+    networks:
+      - catalog-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  postgres_catalog:
+    driver: local
+
+networks:
+  catalog-network:
+    driver: bridge
