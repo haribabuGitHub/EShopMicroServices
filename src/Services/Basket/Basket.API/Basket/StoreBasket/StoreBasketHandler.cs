@@ -1,5 +1,7 @@
 ﻿
 
+using Discount.Grpc;
+
 namespace Basket.API.Basket.StoreBasket
 {
     public record StoreBasketCommand(ShoppingCart ShoppingCart) : ICommand<StoreBasketResult>;
@@ -16,17 +18,22 @@ namespace Basket.API.Basket.StoreBasket
         }
     }
 
-    public class StoreBasketCommandHandler(IBasketRepository basketRepository) : ICommandHandler<StoreBasketCommand, StoreBasketResult>
+    public class StoreBasketCommandHandler(IBasketRepository basketRepository, DiscountProtoService.DiscountProtoServiceClient discountPro) : ICommandHandler<StoreBasketCommand, StoreBasketResult>
     {
         public async Task<StoreBasketResult> Handle(StoreBasketCommand command, CancellationToken cancellationToken)
         {
-            ShoppingCart shoppingCart = command.ShoppingCart;
-
-            await basketRepository.StoreBasket(shoppingCart);
-            // Here you would typically save the shopping cart to a database or cache
-
-            // For demonstration purposes, we'll just return a successful result
+            await DeductDiscount(command.ShoppingCart, cancellationToken);
+            await basketRepository.StoreBasket(command.ShoppingCart);
             return new StoreBasketResult(command.ShoppingCart.UserName);
+        }
+
+        private async Task DeductDiscount(ShoppingCart shoppingCart, CancellationToken cancellationToken)
+        { 
+            foreach (var item in shoppingCart.Items)
+            {
+                var discount = await discountPro.GetDiscountAsync(new GetDiscountRequest { ProductName = item.ProductName });
+                item.Price -= discount.Amount;
+            }
         }
     }
 }

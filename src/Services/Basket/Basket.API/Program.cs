@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using BuildingBlocks.Json;
 using BuildingBlocks.Exceptions.Handler;
 using HealthChecks.UI.Client;
+using Discount.Grpc;
 
 var builder = WebApplication.CreateBuilder(args);
 //add services to the container
@@ -24,15 +25,30 @@ builder.Services.AddMediatR(config => {
 
 builder.Services.AddMarten(options =>
 {
-    options.Connection(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.Connection(builder.Configuration.GetConnectionString("DefaultConnection")!);
     options.Schema.For<ShoppingCart>().Identity(x => x.UserName);
 }).UseLightweightSessions();
+
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.Decorate<IBasketRepository, CachedBasketRepository>();
+
 builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration.GetConnectionString("Redis");
 });
+
+builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]!);
+}).ConfigurePrimaryHttpMessageHandler(() =>
+{
+    var handler = new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+    };
+    return handler;
+}
+);
 
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 builder.Services.AddHealthChecks().

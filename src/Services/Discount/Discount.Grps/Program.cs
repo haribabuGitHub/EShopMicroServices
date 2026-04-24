@@ -11,19 +11,27 @@ builder.Services.AddDbContext<Discount.Grpc.Data.DiscountContext>(options =>
 
 builder.WebHost.ConfigureKestrel(options =>
 {
-    // HTTP/2 endpoint (gRPC over HTTPS)
     options.ListenLocalhost(5052, listenOptions =>
     {
         listenOptions.Protocols = HttpProtocols.Http2;
     });
 
-    // HTTP endpoint (for non-gRPC traffic)
-    options.ListenLocalhost(5002, listenOptions =>
+    options.ListenAnyIP(8081, listenOptions =>
     {
-        listenOptions.Protocols = HttpProtocols.Http1AndHttp2;
+        listenOptions.Protocols = HttpProtocols.Http2;
+        listenOptions.UseHttps();
     });
-   
+    options.ListenAnyIP(6062, listenOptions =>
+    {
+        listenOptions.Protocols = HttpProtocols.Http2;
+        listenOptions.UseHttps();
+    });
 });
+
+
+
+builder.Services.AddGrpcReflection();
+
 
 var app = builder.Build();
 
@@ -34,6 +42,10 @@ Directory.CreateDirectory(dataDirectory);
 app.UseMigration();
 
 app.MapGrpcService<Discount.Grpc.Services.DiscountService>();
+if (app.Environment.IsDevelopment())
+{
+    app.MapGrpcReflectionService();
+}
 
 // Configure the HTTP request pipeline.
 app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
