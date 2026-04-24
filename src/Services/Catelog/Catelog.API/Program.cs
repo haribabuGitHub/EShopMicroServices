@@ -1,7 +1,9 @@
 using BuildingBlocks.Behaviours;
 using BuildingBlocks.Exceptions.Handler;
+using Catelog.API.Data;
 using Catelog.API.Products.CreateProduct;
 using FluentValidation;
+using HealthChecks.UI.Client;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,12 +30,25 @@ builder.Services.AddCarter();
 
 
 builder.Services.AddScoped<IRequestHandler<CreateProductCommand, CreateProductResult>, CreateProductCommandHandler>();
-builder.Services.AddMarten(opts=> {
-    opts.Connection(builder.Configuration.GetConnectionString("DefaultConnection"));
-}).UseLightweightSessions();
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' is not configured.");
+
+builder.Services.AddMarten(connectionString)
+    .UseLightweightSessions();
+
+if (builder.Environment.IsDevelopment()) { 
+    builder.Services.InitializeMartenWith<CatelogInitialData>();
+}
+
+
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+builder.Services.AddHealthChecks().AddNpgSql(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 var app = builder.Build();
 app.MapCarter();
 app.UseExceptionHandler(options => { });
+app.UseHealthChecks("/health",
+    new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions { 
+        ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+    });
 app.Run();
