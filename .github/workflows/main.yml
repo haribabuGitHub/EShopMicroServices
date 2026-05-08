@@ -9,6 +9,6 @@ on:
 jobs:
   build:
    runs-on: ubuntu-latest
-  steps:
-     - name: Build steps:
-       run: echo A Demo Build"
+   steps:
+     - name: Build Steps
+       run: echo "A Demo Build"
