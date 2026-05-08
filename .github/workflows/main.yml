@@ -15,4 +15,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Build Steps
-       run: echo "A Demo Build"
+       run: echo "A Demo Build variable value is ${{vars.My_Name}} and secrete is ${{secrets.My_Sec}}"
