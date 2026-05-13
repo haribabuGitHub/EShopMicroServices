@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Hari\\Practice\\Microservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\hari\\practice\\microservices\\.github\\workflows\\main.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.github\\workflows\\main.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +14,28 @@
       "DocumentGroups": [
         {
           "DockedHeight": 134,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.yml",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\.github\\workflows\\main.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\main.yml",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\.github\\workflows\\main.yml",
+              "RelativeToolTip": ".github\\workflows\\main.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-08T09:13:31.819Z",
+              "EditorCaption": ""
             }
           ]
         },
