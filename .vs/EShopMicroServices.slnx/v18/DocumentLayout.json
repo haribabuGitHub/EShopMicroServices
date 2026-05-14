@@ -1,14 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\",
+  "WorkspaceRootPath": "C:\\Hari\\Practice\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|c:\\users\\haribabu.arigela\\source\\repos\\eshopmicroservices\\src\\services\\catelog\\catelog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|solutionrelative:src\\services\\catelog\\catelog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|c:\\users\\haribabu.arigela\\source\\repos\\eshopmicroservices\\src\\services\\catelog\\catelog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61761F18-AF7E-4AA9-900E-5BE9316A0658}|src\\Services\\Catelog\\Catelog.API\\Catelog.API.csproj|solutionrelative:src\\services\\catelog\\catelog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\orderid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\orderid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\orderitemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\orderitemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\ordername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\ordername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\productid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\productid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\valueobjects\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\valueobjects\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\customerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\customerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\valueobjects\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\valueobjects\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\ordering.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\ordering.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\abstractions\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\abstractions\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\abstractions\\iaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\abstractions\\iaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\abstractions\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.domain\\abstractions\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CE607F-E1A4-4B0E-A7C8-1C25A6A39356}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\abstractions\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:src\\services\\ordering\\ordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCA303-300D-4293-8284-D4F18B518997}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DCA303-300D-4293-8284-D4F18B518997}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:src\\services\\ordering\\ordering.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:src\\services\\ordering\\ordering.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDF5346-722F-4EB6-AC3B-226F51FC06B3}|src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCDF5346-722F-4EB6-AC3B-226F51FC06B3}|src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:src\\services\\ordering\\ordering.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.api\\ordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{18DB49E5-A2BF-4D2D-BABF-7B3530F25308}|src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj|solutionrelative:src\\services\\ordering\\ordering.api\\ordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCDF5346-722F-4EB6-AC3B-226F51FC06B3}|src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|c:\\hari\\practice\\microservices\\src\\services\\ordering\\ordering.infrastructure\\ordering.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCDF5346-722F-4EB6-AC3B-226F51FC06B3}|src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj|solutionrelative:src\\services\\ordering\\ordering.infrastructure\\ordering.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +105,334 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 241,
-          "SelectedChildIndex": 15,
+          "DockedHeight": 134,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItemId.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItemId.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItemId.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItemId.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItemId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:42:38.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderName.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderName.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderName.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderName.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:34:15.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItem.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T11:50:29.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:06:19.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T11:45:33.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:15:22.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Product.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Product.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T11:54:38.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductId.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\ProductId.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\ProductId.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\ProductId.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\ProductId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:38:01.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderId.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderId.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderId.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderId.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\OrderId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:37:31.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerId.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\CustomerId.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\CustomerId.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\CustomerId.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\CustomerId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:33:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Payment.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Payment.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Payment.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:12:49.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Address.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Address.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Address.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\ValueObjects\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T12:09:35.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Customer.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Customer.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T11:53:17.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Aggregate.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\Aggregate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:33:37.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAggregate.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IAggregate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:29:29.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T10:24:51.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ordering.Domain",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T09:59:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Abstractions\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T09:59:41.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T07:48:21.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T07:38:15.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T07:37:06.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.API\\DependencyInjection.cs",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.API\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T07:36:42.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Ordering.API",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T07:29:38.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Ordering.Infrastructure",
+              "DocumentMoniker": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+              "ToolTip": "C:\\Hari\\Practice\\Microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-14T07:28:50.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 348,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,10 +457,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -81,30 +491,8 @@
               "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Services\\Catelog\\Catelog.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T04:33:45.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Catelog\\Catelog.API\\Program.cs",
-              "ToolTip": "C:\\Users\\HARIBABU.ARIGELA\\source\\repos\\EShopMicroServices\\src\\Services\\Catelog\\Catelog.API\\Program.cs",
-              "RelativeToolTip": "src\\Services\\Catelog\\Catelog.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T04:26:15.39Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
